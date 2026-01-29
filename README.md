@@ -22,5 +22,4 @@ Industrial ML research is frequently constrained by limited access to high-quali
 
 ---
 
-## Repository Layout
 
