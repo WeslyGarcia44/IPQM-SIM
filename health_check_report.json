@@ -1,0 +1,85 @@
+{
+  "n_partitions": 60000,
+  "n_rows": 21604402,
+  "n_cols": 13,
+  "columns": [
+    "scenario_id",
+    "machine_id",
+    "family",
+    "cycle",
+    "timestamp",
+    "load",
+    "sensor_reading",
+    "wear_index",
+    "health_index",
+    "quality_prob",
+    "quality_defect",
+    "failed_flag",
+    "RUL"
+  ],
+  "dtypes_before": {
+    "scenario_id": "object",
+    "machine_id": "object",
+    "family": "object",
+    "cycle": "int64",
+    "timestamp": "float64",
+    "load": "float64",
+    "sensor_reading": "float64",
+    "wear_index": "float64",
+    "health_index": "float64",
+    "quality_prob": "float64",
+    "quality_defect": "int64",
+    "failed_flag": "int64",
+    "RUL": "int64"
+  },
+  "null_counts": {
+    "scenario_id": 0,
+    "machine_id": 0,
+    "family": 0,
+    "cycle": 0,
+    "timestamp": 0,
+    "load": 0,
+    "sensor_reading": 0,
+    "wear_index": 0,
+    "health_index": 0,
+    "quality_prob": 0,
+    "quality_defect": 0,
+    "failed_flag": 0,
+    "RUL": 0
+  },
+  "n_null_rows": 0,
+  "n_duplicates": 0,
+  "range_checks": {
+    "cycle": {
+      "min": 0.0,
+      "max": 706.0
+    },
+    "timestamp": {
+      "min": 0.0,
+      "max": 706.0
+    },
+    "load": {
+      "min": 0.6301,
+      "max": 1.529
+    },
+    "wear_index": {
+      "min": 0.000957,
+      "max": 1.007405
+    },
+    "health_index": {
+      "min": 0.0,
+      "max": 0.999043
+    },
+    "quality_prob": {
+      "min": 0.005,
+      "max": 0.413952
+    },
+    "RUL": {
+      "min": 0.0,
+      "max": 706.0
+    }
+  },
+  "missing_columns": [],
+  "extra_columns": [],
+  "errors": []
+}
